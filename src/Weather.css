@@ -1,0 +1,32 @@
+.container {
+  padding: 20px;
+  margin: 20px;
+  border: 10px double black;
+  border-radius: 7px;
+}
+
+.searchForm {
+  display: grid;
+  grid-template-columns: 4fr repeat(2, 0.5fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 5px;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.aboveForecastGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 5fr;
+  gap: 20px;
+}
+
+.weatherFactors {
+  list-style-type: none;
+}
+.forecastGrid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+}
